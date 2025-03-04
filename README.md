@@ -1,2 +1,2 @@
-# ICS3U-Project-Jisung-Kim-
+# ICS3U-Project
 ICS3U Project
