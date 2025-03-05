@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>JavaScript Apply</title>
+
+
+
+</head>
+
+<body>
+    <p id="date"></p>
+    <script>
+        function printDate() {
+            document.getElementById("date").innerHTML = Date();
+        }
+    </script>
+    <button onclick="printDate()">Show Date</button>
+    <h1>String</h1> 
+
+	<p id="str"></p>
+    <script> 
+		var firstStr = "이것도 문자열입니다.";		
+		var secondStr = '이것도 문자열입니다.';		
+		var thirdStr = "나의 이름은 '홍길동'이야."
+		var fourthStr = '나의 이름은 "홍길동"이야.'
+
+		document.getElementById("str").innerHTML = 
+			firstStr + "<br>" + secondStr + "<br>" + thirdStr + "<br>" + fourthStr + "<br>";
+    </script>
+</body>
+
+</html>
